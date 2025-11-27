@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from "axios"
-const BASE_URL = "http://localhost:3001/api/users"
+// const BASE_URL = "http://localhost:3001/api/users"
+const BASE_URL = "https://backend-cjba.onrender.com/api/users"
 const Users = () => {
 	const [users, setUsers] = useState([]);
 	const [loading, setLoading] = useState(false);
